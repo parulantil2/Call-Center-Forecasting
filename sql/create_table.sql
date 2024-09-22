@@ -13,9 +13,9 @@ CREATE TABLE call_data (
     satisfaction_rating varchar(25) null
 );
 
-SHOW VARIABLES LIKE 'secure_file_priv';
-SHOW GLOBAL VARIABLES LIKE 'local_infile';
-SET GLOBAL local_infile = 1;
+SHOW VARIABLES LIKE 'secure_file_priv';     #restricts the directories where MySQL can read and write files.
+SHOW GLOBAL VARIABLES LIKE 'local_infile';  #command in MySQL checks the status of the local_infile variable, which controls whether local file loading is enabled. This allows you to use the LOAD DATA LOCAL INFILE statement to read data from files on the client’s filesystem.
+SET GLOBAL local_infile = 1;                #enables the local_infile option in MySQL, allowing the use of LOAD DATA LOCAL INFILE to read files from the client's filesystem.
 
 LOAD DATA INFILE "C:\\ProgramData\\MySQL\\MySQL Server 8.0\\Uploads\\cleaned_data.csv"
 INTO TABLE call_data
