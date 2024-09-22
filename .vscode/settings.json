@@ -12,7 +12,7 @@
             "name": "MySQL Local",
             "database": "call_center",
             "username": "root",
-            "password": "parulantil_2",
+            "password": "parulantil",
             "connectionTimeout": 30
         }
     ]
