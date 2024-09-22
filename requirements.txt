@@ -1,8 +1,15 @@
 pandas
 numpy
 mysql
+<<<<<<< HEAD
 mysql.connector-python
+=======
+>>>>>>> 3dfbc1406d7c84a5e765859fb7f677dbc4d79ea3
 pymysql
 matplotlib
 statsmodels
 scikit-learn
+<<<<<<< HEAD
+=======
+mysql.connector-python
+>>>>>>> 3dfbc1406d7c84a5e765859fb7f677dbc4d79ea3
