@@ -47,15 +47,13 @@ To run this project locally, follow the steps below:
 
 1.  **Clone the repository:**
   
-   git clone https://github.com/parulantil2/Call-Center-Forecasting.git
-   cd Call-Center-Forecasting
+     git clone https://github.com/parulantil2/Call-Center-Forecasting.git<br>
+     cd Call-Center-Forecasting
    
 2.  **Create Virtual Environment:**
-3.  
-     python -m venv venv
-   # On Linux: source venv/bin/activate
-   # On Windows: venv\Scripts\activate
+     python -m venv venv<br>
+     On Linux: source venv/bin/activate<br>
+     On Windows: venv\Scripts\activate<br>
 
 3.  **Install the dependencies:**
-4.  
-   pip install -r requirements.txt
+     pip install -r requirements.txt
