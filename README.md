@@ -45,7 +45,7 @@ Our goal is to minimize the MAE for improved forecasting performance, providing 
 
 To run this project locally, follow the steps below:
 
-1. **Clone the repository:**
+ **Clone the repository:**
    ```bash
    git clone https://github.com/parulantil2/Call-Center-Forecasting.git
    cd Call-Center-Forecasting
