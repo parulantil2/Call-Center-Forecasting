@@ -38,7 +38,6 @@ To run this project locally, follow the steps below:
 
  **Clone the repository:**
    git clone https://github.com/parulantil2/Call-Center-Forecasting.git
-   cd Call-Center-Forecasting
    
 
 ## Model Evaluation
