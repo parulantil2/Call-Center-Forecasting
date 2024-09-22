@@ -37,10 +37,9 @@ The dataset is used to train the SARIMA model and predict call volumes for the u
 To run this project locally, follow the steps below:
 
  **Clone the repository:**
-   ```bash
    git clone https://github.com/parulantil2/Call-Center-Forecasting.git
    cd Call-Center-Forecasting
-
+   
 
 ## Model Evaluation
 
