@@ -32,14 +32,6 @@ The dataset is used to train the SARIMA model and predict call volumes for the u
 - **Visualization:** Plot historical data and forecasted values to visualize trends.
 
 
-## Installation
-
-To run this project locally, follow the steps below:
-
- **Clone the repository:**
-   git clone https://github.com/parulantil2/Call-Center-Forecasting.git
-   
-
 ## Model Evaluation
 
 The model's performance is evaluated using **Mean Absolute Error (MAE)**.
@@ -47,3 +39,13 @@ This metric helps ensure the accuracy and reliability of the forecasted values.
 The lower the MAE, the better the model is at predicting future call volumes.
 Our goal is to minimize the MAE for improved forecasting performance, providing more precise predictions to help optimize call center operations.
 
+
+
+## Installation
+
+To run this project locally, follow the steps below:
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/parulantil2/Call-Center-Forecasting.git
+   cd Call-Center-Forecasting
