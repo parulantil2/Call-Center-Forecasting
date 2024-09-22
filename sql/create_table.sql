@@ -13,6 +13,10 @@ CREATE TABLE call_data (
     satisfaction_rating varchar(25) null
 );
 
+SHOW VARIABLES LIKE 'secure_file_priv';
+SHOW GLOBAL VARIABLES LIKE 'local_infile';
+SET GLOBAL local_infile = 1;
+
 LOAD DATA INFILE "C:\\ProgramData\\MySQL\\MySQL Server 8.0\\Uploads\\cleaned_data.csv"
 INTO TABLE call_data
 FIELDS TERMINATED BY ',' 
